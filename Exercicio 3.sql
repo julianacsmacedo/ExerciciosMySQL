@@ -17,7 +17,8 @@ create table tb_alunes(
     genero enum('ela', 'elu', 'ele', 'outro'),
     dataNascimento date,
     nota int(6),
-    primary key (id));
+    primary key (id)
+    );
     
 insert into tb_alunes (nome, genero, datanascimento, nota) values ("Janaina", "ela", '1995-05-10', 6);
 insert into tb_alunes (nome, genero, datanascimento, nota) values ("Vinicius", "elu", '1996-02-04', 7);
